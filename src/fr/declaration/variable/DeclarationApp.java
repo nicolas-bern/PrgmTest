@@ -3,6 +3,7 @@ package fr.declaration.variable;
 public class DeclarationApp {
     public static void main(String[] args){
         System.out.println("Hello world !");
+        /*
         byte b = 30;
         float f = 1.5f;
         short s = 32000;
@@ -16,6 +17,10 @@ public class DeclarationApp {
         System.out.println("Boulean = " + bo);
         System.out.println("Long = " + l);
         System.out.println("String = " + st);
+        */
+
+        String randomString = "Voici le résultat d’un calcul :\n 1+5=6";
+        System.out.println(randomString);
     }
 
 }
