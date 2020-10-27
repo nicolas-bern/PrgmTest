@@ -12,6 +12,10 @@ public class ExerciceTableauEntier {
         System.out.println("La longueur du tableau est de : " + monTableau.length);
 
         //Afficher le dernier élément du tableau avec length
-        System.out.println("Le dernier élément du tableau est : " + monTableau[monTableau.length-1]);
+        System.out.println("Le dernier élément du tableau est : " + monTableau[monTableau.length - 1]);
+
+        //Valeur du quatrième index = 8
+        monTableau[4] = 8;
+        System.out.println("Index 4 = " + monTableau[4]);
     }
 }
